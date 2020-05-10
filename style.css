@@ -1069,7 +1069,7 @@ body {
     margin-right: 11px;
 }
 .single-item-text-info span span {color: #2d3e50;}
-.single-item-text > p {color: #222222;}
+.single-item-text > p {color: #222222;min-height: 275px;}
 .single-item-content {
     margin-bottom: 44px;
     overflow: hidden;
@@ -1785,7 +1785,7 @@ body {
     text-transform: uppercase;
     z-index: 99;
 }
-.course-page .single-item {margin-bottom: 178px;}
+.course-page .single-item {margin-bottom: 83px;}
 .course-page.shortcode .single-item {margin-bottom: 78px;}
 .course-page .col-md-4:nth-child(4) .single-item, .course-page .col-md-4:nth-child(5) .single-item , .course-page .col-md-4:nth-child(6) .single-item {
     margin-bottom: 83px;
@@ -1794,7 +1794,8 @@ body {
 /*----------------------------------------*/
 /*  17.1 Teachers Area
 /*----------------------------------------*/
-.teachers-area {padding: 0 0 140px;}
+.teachers-area {background: #2d3e50 none repeat scroll 0 0;
+    color: #ffffff;}
 .single-teacher-item {
     box-shadow: 1px 0 5px rgba(0, 0, 0, 0.2);
     position: relative;
@@ -1823,26 +1824,20 @@ body {
 .single-teacher-text {
     background: #f6f6f6 none repeat scroll 0 0;
     border-bottom: 3px solid #86bc42;
-    padding: 20px 26px 90px;
+    padding: 20px 26px 40px;
     text-align: center;
+    min-height: 150px;
 }
-.single-teacher-item:hover .single-teacher-text {
-    margin-top: -45px;
-    padding: 20px 26px 66px;
-    position: relative;
-    z-index: 9;
-}
+
 .single-teacher-text > h3 {
     font-family: raleway;
     font-weight: 600;
     margin-bottom: 4px;
     padding-top: 20px;
 }
-.single-teacher-item:hover .single-teacher-text > h3 {padding-top: 0;}
 .single-teacher-text > h3 a {color: #222222;}
 .single-teacher-text > h4 {font-family: raleway; font-weight: 500;}
-.single-teacher-text > p {display: none; padding-top: 13px;}
-.single-teacher-item:hover .single-teacher-text p {display: block;}
+.single-teacher-text > p {display: block; padding-top: 13px;color: #000;}
 .social-links > a {
     border: 1px solid #2d3e50;
     border-radius: 50%;

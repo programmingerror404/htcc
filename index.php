@@ -87,63 +87,8 @@
         <div class="as-mainwrapper">
             <!--Bg White Start-->
             <div class="bg-white">
-                <!--Header Area Start-->
-                <header>
-                    <div class="header-logo-menu sticker stick">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-md-3 col-sm-12">
-                                    <div class="logo">
-                                        <a href="index.html"><img src="img/logo/logo.png" alt="EDUCAT"></a>
-                                    </div>
-                                </div>
-                                <div class="col-md-9">
-                                    <div class="mainmenu-area pull-right">
-                                        <div class="mainmenu hidden-sm hidden-xs">
-                                            <nav>
-                                                <ul id="nav">
-                                                    <li class="current"><a href="index.html">Home</a></li>
-                                                    <li><a href="courses.html">Courses</a>
-                                                        <ul class="sub-menu">
-                                                            <li><a href="courses-details.html">Courses Details</a></li>
-                                                        </ul>
-                                                    </li>
-                                                    <li><a href="contact.html">Contact</a></li>
-                                                </ul>
-                                            </nav>
-                                        </div>
-                                       
-                                    </div> 
-                                </div>
-                            </div>
-                        </div>
-                    </div>  
-                    <!-- Mobile Menu Area start -->
-                    <div class="mobile-menu-area">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-lg-12 col-md-12 col-sm-12">
-                                    <div class="mobile-menu">
-                                        <nav id="dropdown">
-                                            <ul>
-                                                <li><a href="index.html">HOME</a>
-                                                </li>
-                                                <li><a href="courses.html">Courses</a>
-                                                    <ul class="sub-menu">
-                                                        <li><a href="courses-details.html">Courses Details</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li><a href="contact.html">Contact us</a></li>
-                                            </ul>
-                                        </nav>
-                                    </div>					
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Mobile Menu Area end -->    
-                </header>
-                <!--End of Header Area-->
+                
+                <?php include 'header.php' ?>
                 <!--Slider Area Start-->
                 <div class="slider-area">
                     <div class="preview-2">
@@ -173,7 +118,33 @@
                     </div>
                 </div>
                 <!--End of Slider Area-->
-                
+                    <!--Teachers Area Start-->
+                <div class="teachers-area section-padding">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="section-title-wrapper white">
+                                    <div class="section-title">
+                                        <h3>Categories</h3>
+                                        <p></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <?php foreach ($categories as $key => $value) { ?>
+                            <div class="col-lg-3 col-md-4 col-sm-12 mb-10">
+                                <div class="single-teacher-item">
+                                    <div class="single-teacher-text">
+                                        <h3><a href="#"><?php echo $key; ?></a></h3>
+                                        <p><?php echo $value; ?></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <?php } ?>
+                        </div>
+                    </div>
+                </div>
                 <!--Course Area Start-->
                 <div class="course-area section-padding bg-white">
                     <div class="container">
@@ -254,7 +225,7 @@
                             <div class="col-md-4 col-sm-4">
                                 <div class="single-fun-factor">
                                     <h4>Teachers</h4>
-                                    <h2><span class="counter">50</span>+</h2>
+                                    <h2><span class="counter">10</span>+</h2>
                                 </div>
                             </div>
                             <div class="col-md-4 col-sm-4">
@@ -266,7 +237,7 @@
                             <div class="col-md-4 col-sm-4">
                                 <div class="single-fun-factor">
                                     <h4>Courses</h4>
-                                    <h2><span class="counter">10</span>+</h2>
+                                    <h2><span class="counter">50</span>+</h2>
                                 </div>
                             </div>
                         </div>
@@ -506,58 +477,7 @@
                 <!--Newsletter Area Start-->
                 
                 <!--End of Newsletter Area-->
-                <!--Footer Widget Area Start-->
-                <div class="footer-widget-area">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-4 col-sm-4">
-                                <div class="single-footer-widget">
-                                    <div class="footer-logo">
-                                        <a href="index.html"><img src="img/logo/footer.png" alt=""></a>
-                                    </div>
-                                    <p></p>
-                                    <div class="social-icons">
-                                        <a href="#"><i class="zmdi zmdi-facebook"></i></a>
-                                        <a href="#"><i class="zmdi zmdi-instagram"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4 col-sm-4">
-                                <div class="single-footer-widget">
-                                    <h3>GET IN TOUCH</h3>
-                                    <a href="tel:09616254382"><i class="fa fa-phone"></i>096162 54382</a>
-                                    <span><i class="fa fa-envelope"></i>info@example.com</span>
-                                    <span><i class="fa fa-globe"></i>www.hightech.edu</span>
-                                    <span><i class="fa fa-map-marker"></i>sankirtan bhavan, Lal Diggi, Ganesh Ganj, Mirzapur-cum-Vindhyachal, Uttar Pradesh 231001</span>
-                                </div>
-                            </div>
-                            <div class="col-md-4 hidden-sm">
-                                <div class="single-footer-widget">
-                                    <h3>Useful Links</h3>
-                                    <ul class="footer-list">
-                                        <li><a href="#">Our Courses</a></li>
-                                        <li><a href="#">Courses Categories</a></li>
-                                        <li><a href="#">Support</a></li>
-                                        <li><a href="#">Terms &amp; Conditions</a></li>
-                                        <li><a href="#">Privacy Policy</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!--End of Footer Widget Area-->
-                <!--Footer Area Start-->
-                <footer class="footer-area">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-12 col-sm-12 text-center">
-                                <span>Copyright &copy; High Tech Computer Center. All right reserved.Created by <a href="#">High Tech</a></span>
-                            </div>
-                        </div>
-                    </div>
-                </footer>
-                <!--End of Footer Area-->
+                <?php include 'footer.php' ?>
             </div>   
             <!--End of Bg White--> 
         </div>    

@@ -89,61 +89,7 @@
             <!--Bg White Start-->
             <div class="bg-white">
                 <!--Header Area Start-->
-                <header>
-                    <div class="header-logo-menu sticker stick">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-md-3 col-sm-12">
-                                    <div class="logo">
-                                        <a href="index.html"><img src="img/logo/logo.png" alt="EDUCAT"></a>
-                                    </div>
-                                </div>
-                                <div class="col-md-9">
-                                    <div class="mainmenu-area pull-right">
-                                        <div class="mainmenu hidden-sm hidden-xs">
-                                            <nav>
-                                                <ul id="nav">
-                                                    <li class="current"><a href="index.html">Home</a></li>
-                                                    <li><a href="courses.html">Courses</a>
-                                                        <ul class="sub-menu">
-                                                            <li><a href="courses-details.html">Courses Details</a></li>
-                                                        </ul>
-                                                    </li>
-                                                    <li><a href="contact.html">Contact</a></li>
-                                                </ul>
-                                            </nav>
-                                        </div>
-                                       
-                                    </div> 
-                                </div>
-                            </div>
-                        </div>
-                    </div>  
-                    <!-- Mobile Menu Area start -->
-                    <div class="mobile-menu-area">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-lg-12 col-md-12 col-sm-12">
-                                    <div class="mobile-menu">
-                                        <nav id="dropdown">
-                                            <ul>
-                                                <li><a href="index.html">HOME</a>
-                                                </li>
-                                                <li><a href="courses.html">Courses</a>
-                                                    <ul class="sub-menu">
-                                                        <li><a href="courses-details.html">Courses Details</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li><a href="contact.html">Contact us</a></li>
-                                            </ul>
-                                        </nav>
-                                    </div>					
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Mobile Menu Area end -->    
-                </header>
+                 <?php include 'header.php' ?>
                 <!--End of Header Area-->
                 <!--Breadcrumb Banner Area Start-->
                 <div class="breadcrumb-banner-area">
@@ -154,7 +100,7 @@
                                     <h1 class="text-center">CONTACT US</h1>
                                     <div class="breadcrumb-bar">
                                         <ul class="breadcrumb text-center">
-                                            <li><a href="index.html">Home</a></li>
+                                            <li><a href="index.php">Home</a></li>
                                             <li>CONTACT</li>
                                         </ul>
                                     </div>
@@ -180,7 +126,7 @@
                                 <h4 class="contact-title">contact info</h4>
                                 <div class="contact-text">
                                     <p><span class="c-icon"><i class="zmdi zmdi-phone"></i></span><span class="c-text">096162 54382</span></p>
-                                    <p><span class="c-icon"><i class="zmdi zmdi-email"></i></span><span class="c-text">info@example.com</span></p>
+                                    <p><span class="c-icon"><i class="zmdi zmdi-email"></i></span><span class="c-text">hightechcomputer02@gmail.com</span></p>
                                     <p><span class="c-icon"><i class="zmdi zmdi-pin"></i></span><span class="c-text">Sankirtan bhavan , Lal Diggi, </span></p>
                                     <p><span class="c-icon"><i class="zmdi zmdi-pin"></i></span><span class="c-text">Ganesh Ganj, Mirzapur, <br>  Uttar Pradesh 231001 </span></p>
                                     
@@ -217,56 +163,7 @@
                 
                 <!--End of Newsletter Area-->
                 <!--Footer Widget Area Start-->
-                <div class="footer-widget-area">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-4 col-sm-4">
-                                <div class="single-footer-widget">
-                                    <div class="footer-logo">
-                                        <a href="index.html"><img src="img/logo/footer.png" alt=""></a>
-                                    </div>
-                                    <p></p>
-                                    <div class="social-icons">
-                                        <a href="#"><i class="zmdi zmdi-facebook"></i></a>
-                                        <a href="#"><i class="zmdi zmdi-instagram"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4 col-sm-4">
-                                <div class="single-footer-widget">
-                                    <h3>GET IN TOUCH</h3>
-                                    <a href="tel:09616254382"><i class="fa fa-phone"></i>096162 54382</a>
-                                    <span><i class="fa fa-envelope"></i>info@example.com</span>
-                                    <span><i class="fa fa-globe"></i>www.hightech.edu</span>
-                                    <span><i class="fa fa-map-marker"></i>sankirtan bhavan, Lal Diggi, Ganesh Ganj, Mirzapur-cum-Vindhyachal, Uttar Pradesh 231001</span>
-                                </div>
-                            </div>
-                            <div class="col-md-4 hidden-sm">
-                                <div class="single-footer-widget">
-                                    <h3>Useful Links</h3>
-                                    <ul class="footer-list">
-                                        <li><a href="#">Our Courses</a></li>
-                                        <li><a href="#">Courses Categories</a></li>
-                                        <li><a href="#">Support</a></li>
-                                        <li><a href="#">Terms &amp; Conditions</a></li>
-                                        <li><a href="#">Privacy Policy</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!--End of Footer Widget Area-->
-                <!--Footer Area Start-->
-                <footer class="footer-area">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-12 col-sm-12 text-center">
-                                <span>Copyright &copy; High Tech Computer Center. All right reserved.Created by <a href="#">High Tech</a></span>
-                            </div>
-                        </div>
-                    </div>
-                </footer>
+                 <?php include 'footer.php' ?>
                 <!--End of Footer Area-->
             </div>   
             <!--End of Bg White--> 
@@ -341,36 +238,7 @@
 		<!-- plugins JS
 		============================================ -->		
         <script src="js/plugins.js"></script>
-        
-        <!-- Google Map js
-		============================================ --> 		
-        
-		<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBuU_0_uLMnFM-2oWod_fzC0atPZj7dHlU"></script>
-		<script type="text/javascript" src="https://www.google.com/jsapi"></script>
-		<script>
-			function initialize() {
-			  var mapOptions = {
-				zoom: 15,
-				scrollwheel: false,
-				center: new google.maps.LatLng(23.763494, 90.432226)
-			  };
-
-			  var map = new google.maps.Map(document.getElementById('googleMap'),
-				  mapOptions);
-
-
-			  var marker = new google.maps.Marker({
-				position: map.getCenter(),
-				animation:google.maps.Animation.BOUNCE,
-				icon: 'img/map-marker.png',
-				map: map
-			  });
-                
-			}
-                
-			google.maps.event.addDomListener(window, 'load', initialize);
-		</script>
-        
+    
         
 		<!-- main JS
 		============================================ -->		

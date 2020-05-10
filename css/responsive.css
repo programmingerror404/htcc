@@ -47,7 +47,8 @@
     .select.small {width: 130px;}
     .course-page {padding: 120px 0 100px;}
     .course-page .single-item {margin-bottom: 130px;}
-    .teachers-area {padding: 0 0 120px;}
+    .teachers-area {background: #2d3e50 none repeat scroll 0 0;
+    color: #ffffff;}
     .single-sidebar-widget .single-item {padding: 0 8px;}
     .single-item-text-info span {margin-right: 8px;}
     .single-sidebar-widget {margin-bottom: 35px;}
@@ -130,7 +131,8 @@
     .course-page .col-md-4:nth-child(5) .single-item, .course-page .col-md-4:nth-child(6) .single-item {
         margin-bottom: 50px;
     }
-    .teachers-area {padding: 0 0 110px;} 
+    .teachers-area {background: #2d3e50 none repeat scroll 0 0;
+    color: #ffffff;} 
     .newsletter-two .subscribe-form > input {width: 237px;}
     .newsletter-two .subscribe-form > button {margin-left: 8px;}
     .latest-page .col-md-6:last-child  .single-latest-item:last-child {margin-bottom: 30px;}
@@ -266,7 +268,8 @@
         margin-bottom: 57px;
     }
     .single-item-text-info span {margin-right: 8px;} 
-    .teachers-area {padding: 0 0 50px;}
+    .teachers-area {background: #2d3e50 none repeat scroll 0 0;
+    color: #ffffff;}
     .course-details-content {margin-left: 0;}
     .course-details-area a img {margin: 0; width: 100%;}
     .single-course-details .col-md-6:first-child {padding-right: 15px;}
